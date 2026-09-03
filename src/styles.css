@@ -59,7 +59,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --font-sans: var(--font-sans);
+  --font-sans: var(--font-app);
   --shadow-soft: var(--shadow-soft);
   --shadow-card: var(--shadow-card);
 }
@@ -103,7 +103,7 @@
   --gradient-primary: linear-gradient(135deg, oklch(0.66 0.2 356), oklch(0.58 0.2 340));
   --shadow-soft: 0 1px 2px oklch(0.63 0.21 356 / 0.06), 0 8px 24px oklch(0.63 0.21 356 / 0.08);
   --shadow-card: 0 2px 6px oklch(0.63 0.21 356 / 0.05), 0 18px 40px oklch(0.63 0.21 356 / 0.1);
-  --font-sans:
+  --font-app:
     "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
@@ -156,7 +156,7 @@
 
 @layer base {
   body {
-    font-family: var(--font-sans);
+    font-family: var(--font-app);
     -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, h4 {
